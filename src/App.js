@@ -68,7 +68,7 @@ function App() {
     initial: { text: "Load Model", action: loadModel },
     loadingModel: { text: "Loading the Model...", action: () => {} },
     awaitingUpload: {
-      text: "Upload a Dog Image",
+      text: "Upload a an Image",
       action: () => inputRef.current.click(),
     },
     ready: { text: "Identify Breed", action: () => identify() },
