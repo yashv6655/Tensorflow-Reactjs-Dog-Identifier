@@ -71,8 +71,8 @@ function App() {
       text: "Upload a an Image",
       action: () => inputRef.current.click(),
     },
-    ready: { text: "Identify Breed", action: () => identify() },
-    classifying: { text: "Identifying the Breed...", action: () => {} },
+    ready: { text: "Identify", action: () => identify() },
+    classifying: { text: "Identifying Image...", action: () => {} },
     complete: { text: "Reset", action: reset },
   };
 
